@@ -3,7 +3,7 @@ This project is used in the [Build an augmented reality app on Root insurance](h
 
 You can see the original sample [here](https://github.com/OfferZen-Make/arinsuretech-kicker.git).
 
-# Intent
+## Intent
 When a user introduces Cozmo's cube to the scene, an insurance quote should pop up, giving the opportunity to insure the precious cube against theft or damage for x per month.
 
 If the user chooses to accept the offer, then
@@ -15,13 +15,12 @@ The cube should have buttons on its faces that can be activated by a person (or 
  - Offer the opportunity to claim for the loss, or
  - Say "too bad, not insured"
 
-# Achieved
+## Achieved
  - Cube detection
  - Virtual buttons
  - Quote generation
 
-# Issues
+## Issues
  - The cube can only be insured as a device (i.e. cell phone).
  - Virtual buttons on a multi-target image (i.e. cube) does not seem to be well supported.
  - Holding the async results in memory from the quote is tricky (lacking the C# skills)
- 
